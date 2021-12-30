@@ -10,7 +10,7 @@ import Entities.Customer;
 public class Main {
 
 	public static void main(String[] args) {
-		Customer customer = new Customer(1, "Name", "Surname", 1990, 56924597853L);
+		Customer customer = new Customer(1, "Name", "Surname", 1990, 54689347896L);
 		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisCheckService());
 		customerManager.save(customer);
 
